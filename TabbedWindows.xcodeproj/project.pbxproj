@@ -1,0 +1,846 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E2093BE716B8A03700DA7793 /* AVTGradientView.h in Headers */ = {isa = PBXBuildFile; fileRef = E2093BE516B8A03700DA7793 /* AVTGradientView.h */; };
+		E2093BE816B8A03700DA7793 /* AVTGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = E2093BE616B8A03700DA7793 /* AVTGradientView.m */; };
+		E2093BEB16B9BD2100DA7793 /* AVTHoverCloseButton.h in Headers */ = {isa = PBXBuildFile; fileRef = E2093BE916B9BD2100DA7793 /* AVTHoverCloseButton.h */; };
+		E2093BEC16B9BD2100DA7793 /* AVTHoverCloseButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E2093BEA16B9BD2100DA7793 /* AVTHoverCloseButton.m */; };
+		E2093BEF16B9BD7F00DA7793 /* AVTHoverButton.h in Headers */ = {isa = PBXBuildFile; fileRef = E2093BED16B9BD7F00DA7793 /* AVTHoverButton.h */; };
+		E2093BF016B9BD7F00DA7793 /* AVTHoverButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E2093BEE16B9BD7F00DA7793 /* AVTHoverButton.m */; };
+		E2093BF716B9C8C100DA7793 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2C6C33516A0D16200D51923 /* Cocoa.framework */; };
+		E2093C0116B9C8C200DA7793 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E2093BFF16B9C8C200DA7793 /* InfoPlist.strings */; };
+		E2093C0316B9C8C200DA7793 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E2093C0216B9C8C200DA7793 /* main.m */; };
+		E2093C0716B9C8C200DA7793 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = E2093C0516B9C8C200DA7793 /* Credits.rtf */; };
+		E2093C0A16B9C8C200DA7793 /* TestTabDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = E2093C0916B9C8C200DA7793 /* TestTabDocument.m */; };
+		E2093C0D16B9C8C200DA7793 /* TestTabDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2093C0B16B9C8C200DA7793 /* TestTabDocument.xib */; };
+		E2093C1016B9C8C200DA7793 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2093C0E16B9C8C200DA7793 /* MainMenu.xib */; };
+		E264CABB16C5BC9200B12542 /* TabView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E264CABA16C5BC9200B12542 /* TabView.xib */; };
+		E264CABE16C9734200B12542 /* AVTThrobberView.h in Headers */ = {isa = PBXBuildFile; fileRef = E264CABC16C9734200B12542 /* AVTThrobberView.h */; };
+		E264CABF16C9734200B12542 /* AVTThrobberView.m in Sources */ = {isa = PBXBuildFile; fileRef = E264CABD16C9734200B12542 /* AVTThrobberView.m */; };
+		E264CAC216C9A5D400B12542 /* AVTFadeTruncatingTextFieldCell.h in Headers */ = {isa = PBXBuildFile; fileRef = E264CAC016C9A5D400B12542 /* AVTFadeTruncatingTextFieldCell.h */; };
+		E264CAC316C9A5D400B12542 /* AVTFadeTruncatingTextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E264CAC116C9A5D400B12542 /* AVTFadeTruncatingTextFieldCell.m */; };
+		E264CAC616C9A79300B12542 /* throbber_waiting.png in Resources */ = {isa = PBXBuildFile; fileRef = E264CAC416C9A79300B12542 /* throbber_waiting.png */; };
+		E264CAC716C9A79300B12542 /* throbber.png in Resources */ = {isa = PBXBuildFile; fileRef = E264CAC516C9A79300B12542 /* throbber.png */; };
+		E264CAC916C9A7AA00B12542 /* sadicon.png in Resources */ = {isa = PBXBuildFile; fileRef = E264CAC816C9A7AA00B12542 /* sadicon.png */; };
+		E264CACC16C9C3CF00B12542 /* AVTWindowSheetController.h in Headers */ = {isa = PBXBuildFile; fileRef = E264CACA16C9C3CF00B12542 /* AVTWindowSheetController.h */; };
+		E264CACD16C9C3CF00B12542 /* AVTWindowSheetController.m in Sources */ = {isa = PBXBuildFile; fileRef = E264CACB16C9C3CF00B12542 /* AVTWindowSheetController.m */; };
+		E2C2C85A16B725F200B1BA7E /* AVTTabWellController.h in Headers */ = {isa = PBXBuildFile; fileRef = E2C2C85616B725F200B1BA7E /* AVTTabWellController.h */; };
+		E2C2C85B16B725F200B1BA7E /* AVTTabWellController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C2C85716B725F200B1BA7E /* AVTTabWellController.m */; };
+		E2C2C85C16B725F200B1BA7E /* AVTTabWellView.h in Headers */ = {isa = PBXBuildFile; fileRef = E2C2C85816B725F200B1BA7E /* AVTTabWellView.h */; };
+		E2C2C85D16B725F200B1BA7E /* AVTTabWellView.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C2C85916B725F200B1BA7E /* AVTTabWellView.m */; };
+		E2C2C86316B738C000B1BA7E /* AVTContainerCommands.h in Headers */ = {isa = PBXBuildFile; fileRef = E2C2C86216B738C000B1BA7E /* AVTContainerCommands.h */; };
+		E2C3CC4216B9E1B200424DE5 /* AVTFastResizeView.h in Headers */ = {isa = PBXBuildFile; fileRef = E2C3CC4016B9E1B200424DE5 /* AVTFastResizeView.h */; };
+		E2C3CC4316B9E1B200424DE5 /* AVTFastResizeView.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C3CC4116B9E1B200424DE5 /* AVTFastResizeView.m */; };
+		E2C3CC4716BB1C5300424DE5 /* NSWindow+AVTTheme.h in Headers */ = {isa = PBXBuildFile; fileRef = E2C3CC4516BB1C5300424DE5 /* NSWindow+AVTTheme.h */; };
+		E2C3CC4816BB1C5300424DE5 /* NSWindow+AVTTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C3CC4616BB1C5300424DE5 /* NSWindow+AVTTheme.m */; };
+		E2C3CC4E16BB1F1B00424DE5 /* AVTToolbarController.h in Headers */ = {isa = PBXBuildFile; fileRef = E2C3CC4A16BB1F1B00424DE5 /* AVTToolbarController.h */; };
+		E2C3CC4F16BB1F1B00424DE5 /* AVTToolbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C3CC4B16BB1F1B00424DE5 /* AVTToolbarController.m */; };
+		E2C3CC5016BB1F1B00424DE5 /* AVTToolbarView.h in Headers */ = {isa = PBXBuildFile; fileRef = E2C3CC4C16BB1F1B00424DE5 /* AVTToolbarView.h */; };
+		E2C3CC5116BB1F1B00424DE5 /* AVTToolbarView.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C3CC4D16BB1F1B00424DE5 /* AVTToolbarView.m */; };
+		E2C3CC6E16BC3D9300424DE5 /* AVTNewTabButton.h in Headers */ = {isa = PBXBuildFile; fileRef = E2C3CC6C16BC3D9200424DE5 /* AVTNewTabButton.h */; };
+		E2C3CC6F16BC3D9300424DE5 /* AVTNewTabButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C3CC6D16BC3D9300424DE5 /* AVTNewTabButton.m */; };
+		E2C3CC8816C03CFD00424DE5 /* AVTTabWellModelOrderController.h in Headers */ = {isa = PBXBuildFile; fileRef = E2C3CC8616C03CFC00424DE5 /* AVTTabWellModelOrderController.h */; };
+		E2C3CC8916C03CFD00424DE5 /* AVTTabWellModelOrderController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C3CC8716C03CFD00424DE5 /* AVTTabWellModelOrderController.m */; };
+		E2C3CC9016C1832300424DE5 /* TestTabContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C3CC8F16C1832300424DE5 /* TestTabContainer.m */; };
+		E2C3CC9316C1840B00424DE5 /* TestTabAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C3CC9216C1840B00424DE5 /* TestTabAppDelegate.m */; };
+		E2C3CC9516C1908600424DE5 /* ContainerWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2C3CC9416C1908500424DE5 /* ContainerWindow.xib */; };
+		E2C3CC9716C1CC1F00424DE5 /* default-icon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = E2C3CC9616C1CC1F00424DE5 /* default-icon.pdf */; };
+		E2C3CC9A16C1D71500424DE5 /* NSAnimationContext+Duration.h in Headers */ = {isa = PBXBuildFile; fileRef = E2C3CC9816C1D71400424DE5 /* NSAnimationContext+Duration.h */; };
+		E2C3CC9B16C1D71500424DE5 /* NSAnimationContext+Duration.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C3CC9916C1D71400424DE5 /* NSAnimationContext+Duration.m */; };
+		E2C3CC9D16C3178900424DE5 /* AVTTabbedWindows.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = E2C6C33216A0D16200D51923 /* AVTTabbedWindows.framework */; };
+		E2C3CC9F16C3181600424DE5 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2C3CC9E16C3181500424DE5 /* Carbon.framework */; };
+		E2C3CCA116C324CE00424DE5 /* Toolbar.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2C3CCA016C324CE00424DE5 /* Toolbar.xib */; };
+		E2C6C33616A0D16200D51923 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2C6C33516A0D16200D51923 /* Cocoa.framework */; };
+		E2C6C34016A0D16200D51923 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E2C6C33E16A0D16200D51923 /* InfoPlist.strings */; };
+		E2C6C34D16A0DA3C00D51923 /* AVTContainerWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = E2C6C34B16A0DA3C00D51923 /* AVTContainerWindow.h */; };
+		E2C6C34E16A0DA3C00D51923 /* AVTContainerWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C6C34C16A0DA3C00D51923 /* AVTContainerWindow.m */; };
+		E2C6C35116A0DA6800D51923 /* AVTContainerWindowController.h in Headers */ = {isa = PBXBuildFile; fileRef = E2C6C34F16A0DA6800D51923 /* AVTContainerWindowController.h */; };
+		E2C6C35216A0DA6800D51923 /* AVTContainerWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C6C35016A0DA6800D51923 /* AVTContainerWindowController.m */; };
+		E2D2C4CA16C41F48009E0F37 /* TabDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2D2C4C916C41F48009E0F37 /* TabDocument.xib */; };
+		E2E474FD16AE12CF003338FC /* AVTTabDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = E2E474F916AE12CF003338FC /* AVTTabDocument.h */; };
+		E2E474FE16AE12CF003338FC /* AVTTabDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = E2E474FA16AE12CF003338FC /* AVTTabDocument.m */; };
+		E2E474FF16AE12CF003338FC /* AVTTabWellModel.h in Headers */ = {isa = PBXBuildFile; fileRef = E2E474FB16AE12CF003338FC /* AVTTabWellModel.h */; };
+		E2E4750016AE12CF003338FC /* AVTTabWellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E2E474FC16AE12CF003338FC /* AVTTabWellModel.m */; };
+		E2E4750316AE12D6003338FC /* AVTContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = E2E4750116AE12D6003338FC /* AVTContainer.h */; };
+		E2E4750416AE12D6003338FC /* AVTContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = E2E4750216AE12D6003338FC /* AVTContainer.m */; };
+		E2E4750A16AE1704003338FC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2E4750916AE1704003338FC /* QuartzCore.framework */; };
+		E2E4750F16AE1835003338FC /* newtab-hover.pdf in Resources */ = {isa = PBXBuildFile; fileRef = E2E4750C16AE1835003338FC /* newtab-hover.pdf */; };
+		E2E4751016AE1835003338FC /* newtab-normal.pdf in Resources */ = {isa = PBXBuildFile; fileRef = E2E4750D16AE1835003338FC /* newtab-normal.pdf */; };
+		E2E4751116AE1835003338FC /* newtab-pressed.pdf in Resources */ = {isa = PBXBuildFile; fileRef = E2E4750E16AE1835003338FC /* newtab-pressed.pdf */; };
+		E2E7119616B87FD800A623B0 /* AVTTabWellModelDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = E2E7119516B87FD800A623B0 /* AVTTabWellModelDelegate.h */; };
+		E2E7119A16B883F500A623B0 /* AVTTabDocumentController.h in Headers */ = {isa = PBXBuildFile; fileRef = E2E7119816B883F500A623B0 /* AVTTabDocumentController.h */; };
+		E2E7119B16B883F500A623B0 /* AVTTabDocumentController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2E7119916B883F500A623B0 /* AVTTabDocumentController.m */; };
+		E2E7119E16B8843E00A623B0 /* AVTTabWindowController.h in Headers */ = {isa = PBXBuildFile; fileRef = E2E7119C16B8843E00A623B0 /* AVTTabWindowController.h */; };
+		E2E7119F16B8843E00A623B0 /* AVTTabWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2E7119D16B8843E00A623B0 /* AVTTabWindowController.m */; };
+		E2E711A216B8848900A623B0 /* AVTTabController.h in Headers */ = {isa = PBXBuildFile; fileRef = E2E711A016B8848900A623B0 /* AVTTabController.h */; };
+		E2E711A316B8848900A623B0 /* AVTTabController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2E711A116B8848900A623B0 /* AVTTabController.m */; };
+		E2E711A616B884F100A623B0 /* AVTTabView.h in Headers */ = {isa = PBXBuildFile; fileRef = E2E711A416B884F100A623B0 /* AVTTabView.h */; };
+		E2E711A716B884F100A623B0 /* AVTTabView.m in Sources */ = {isa = PBXBuildFile; fileRef = E2E711A516B884F100A623B0 /* AVTTabView.m */; };
+		E2E7A0E116B9CEA8008C81DB /* AVTTabbedWindows.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2C6C33216A0D16200D51923 /* AVTTabbedWindows.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E2E7A0DF16B9CEA0008C81DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2C6C32816A0D16200D51923 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2C6C33116A0D16200D51923;
+			remoteInfo = AVTTabbedWindows;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E2C3CC9C16C3176E00424DE5 /* Copy Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				E2C3CC9D16C3178900424DE5 /* AVTTabbedWindows.framework in Copy Frameworks */,
+			);
+			name = "Copy Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E2093BE516B8A03700DA7793 /* AVTGradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AVTGradientView.h; path = Source/AVTGradientView.h; sourceTree = SOURCE_ROOT; };
+		E2093BE616B8A03700DA7793 /* AVTGradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AVTGradientView.m; path = Source/AVTGradientView.m; sourceTree = SOURCE_ROOT; };
+		E2093BE916B9BD2100DA7793 /* AVTHoverCloseButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AVTHoverCloseButton.h; path = Source/AVTHoverCloseButton.h; sourceTree = SOURCE_ROOT; };
+		E2093BEA16B9BD2100DA7793 /* AVTHoverCloseButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AVTHoverCloseButton.m; path = Source/AVTHoverCloseButton.m; sourceTree = SOURCE_ROOT; };
+		E2093BED16B9BD7F00DA7793 /* AVTHoverButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVTHoverButton.h; sourceTree = "<group>"; };
+		E2093BEE16B9BD7F00DA7793 /* AVTHoverButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVTHoverButton.m; sourceTree = "<group>"; };
+		E2093BF616B9C8C100DA7793 /* TabbedWindowTester.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = TabbedWindowTester.app; path = TesterApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2093BF916B9C8C100DA7793 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		E2093BFB16B9C8C100DA7793 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E2093BFE16B9C8C200DA7793 /* TabbedWindowTester-Info.plist */ = {isa = PBXFileReference; explicitFileType = text.xml; name = "TabbedWindowTester-Info.plist"; path = "TesterApp/Resources/TabbedWindowTester-Info.plist"; sourceTree = SOURCE_ROOT; };
+		E2093C0016B9C8C200DA7793 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E2093C0216B9C8C200DA7793 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = TesterApp/Source/main.m; sourceTree = SOURCE_ROOT; };
+		E2093C0416B9C8C200DA7793 /* TabbedWindowTester-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "TabbedWindowTester-Prefix.pch"; path = "TesterApp/Source/TabbedWindowTester-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		E2093C0616B9C8C200DA7793 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		E2093C0816B9C8C200DA7793 /* TestTabDocument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TestTabDocument.h; path = TesterApp/Source/TestTabDocument.h; sourceTree = SOURCE_ROOT; };
+		E2093C0916B9C8C200DA7793 /* TestTabDocument.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = TestTabDocument.m; path = TesterApp/Source/TestTabDocument.m; sourceTree = SOURCE_ROOT; };
+		E2093C0C16B9C8C200DA7793 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TestTabDocument.xib; sourceTree = "<group>"; };
+		E2093C0F16B9C8C200DA7793 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		E264CABA16C5BC9200B12542 /* TabView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TabView.xib; sourceTree = "<group>"; };
+		E264CABC16C9734200B12542 /* AVTThrobberView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVTThrobberView.h; sourceTree = "<group>"; };
+		E264CABD16C9734200B12542 /* AVTThrobberView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVTThrobberView.m; sourceTree = "<group>"; };
+		E264CAC016C9A5D400B12542 /* AVTFadeTruncatingTextFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVTFadeTruncatingTextFieldCell.h; sourceTree = "<group>"; };
+		E264CAC116C9A5D400B12542 /* AVTFadeTruncatingTextFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVTFadeTruncatingTextFieldCell.m; sourceTree = "<group>"; };
+		E264CAC416C9A79300B12542 /* throbber_waiting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = throbber_waiting.png; path = Images/throbber_waiting.png; sourceTree = "<group>"; };
+		E264CAC516C9A79300B12542 /* throbber.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = throbber.png; path = Images/throbber.png; sourceTree = "<group>"; };
+		E264CAC816C9A7AA00B12542 /* sadicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sadicon.png; path = Images/sadicon.png; sourceTree = "<group>"; };
+		E264CACA16C9C3CF00B12542 /* AVTWindowSheetController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVTWindowSheetController.h; sourceTree = "<group>"; };
+		E264CACB16C9C3CF00B12542 /* AVTWindowSheetController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVTWindowSheetController.m; sourceTree = "<group>"; };
+		E2C2C85616B725F200B1BA7E /* AVTTabWellController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AVTTabWellController.h; path = Source/AVTTabWellController.h; sourceTree = SOURCE_ROOT; };
+		E2C2C85716B725F200B1BA7E /* AVTTabWellController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AVTTabWellController.m; path = Source/AVTTabWellController.m; sourceTree = SOURCE_ROOT; };
+		E2C2C85816B725F200B1BA7E /* AVTTabWellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AVTTabWellView.h; path = Source/AVTTabWellView.h; sourceTree = SOURCE_ROOT; };
+		E2C2C85916B725F200B1BA7E /* AVTTabWellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AVTTabWellView.m; path = Source/AVTTabWellView.m; sourceTree = SOURCE_ROOT; };
+		E2C2C86216B738C000B1BA7E /* AVTContainerCommands.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AVTContainerCommands.h; path = Source/AVTContainerCommands.h; sourceTree = SOURCE_ROOT; };
+		E2C3CC3816B9D2F500424DE5 /* Global-Mac.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "Global-Mac.xcconfig"; path = "../../common/Configurations/Global-Mac.xcconfig"; sourceTree = "<group>"; };
+		E2C3CC3916B9D2F500424DE5 /* Project-Mac-Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "Project-Mac-Debug.xcconfig"; path = "../../common/Configurations/Project-Mac-Debug.xcconfig"; sourceTree = "<group>"; };
+		E2C3CC3A16B9D2F500424DE5 /* Project-Mac-Distribution.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "Project-Mac-Distribution.xcconfig"; path = "../../common/Configurations/Project-Mac-Distribution.xcconfig"; sourceTree = "<group>"; };
+		E2C3CC3B16B9D2F500424DE5 /* Project-Mac-Release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "Project-Mac-Release.xcconfig"; path = "../../common/Configurations/Project-Mac-Release.xcconfig"; sourceTree = "<group>"; };
+		E2C3CC4016B9E1B200424DE5 /* AVTFastResizeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVTFastResizeView.h; sourceTree = "<group>"; };
+		E2C3CC4116B9E1B200424DE5 /* AVTFastResizeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVTFastResizeView.m; sourceTree = "<group>"; };
+		E2C3CC4516BB1C5300424DE5 /* NSWindow+AVTTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSWindow+AVTTheme.h"; sourceTree = "<group>"; };
+		E2C3CC4616BB1C5300424DE5 /* NSWindow+AVTTheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSWindow+AVTTheme.m"; sourceTree = "<group>"; };
+		E2C3CC4A16BB1F1B00424DE5 /* AVTToolbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVTToolbarController.h; sourceTree = "<group>"; };
+		E2C3CC4B16BB1F1B00424DE5 /* AVTToolbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVTToolbarController.m; sourceTree = "<group>"; };
+		E2C3CC4C16BB1F1B00424DE5 /* AVTToolbarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVTToolbarView.h; sourceTree = "<group>"; };
+		E2C3CC4D16BB1F1B00424DE5 /* AVTToolbarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVTToolbarView.m; sourceTree = "<group>"; };
+		E2C3CC6C16BC3D9200424DE5 /* AVTNewTabButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVTNewTabButton.h; sourceTree = "<group>"; };
+		E2C3CC6D16BC3D9300424DE5 /* AVTNewTabButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVTNewTabButton.m; sourceTree = "<group>"; };
+		E2C3CC8616C03CFC00424DE5 /* AVTTabWellModelOrderController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVTTabWellModelOrderController.h; sourceTree = "<group>"; };
+		E2C3CC8716C03CFD00424DE5 /* AVTTabWellModelOrderController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVTTabWellModelOrderController.m; sourceTree = "<group>"; };
+		E2C3CC8E16C1832300424DE5 /* TestTabContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestTabContainer.h; sourceTree = "<group>"; };
+		E2C3CC8F16C1832300424DE5 /* TestTabContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestTabContainer.m; sourceTree = "<group>"; };
+		E2C3CC9116C1840B00424DE5 /* TestTabAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestTabAppDelegate.h; sourceTree = "<group>"; };
+		E2C3CC9216C1840B00424DE5 /* TestTabAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestTabAppDelegate.m; sourceTree = "<group>"; };
+		E2C3CC9416C1908500424DE5 /* ContainerWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContainerWindow.xib; sourceTree = "<group>"; };
+		E2C3CC9616C1CC1F00424DE5 /* default-icon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "default-icon.pdf"; path = "Images/default-icon.pdf"; sourceTree = "<group>"; };
+		E2C3CC9816C1D71400424DE5 /* NSAnimationContext+Duration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAnimationContext+Duration.h"; sourceTree = "<group>"; };
+		E2C3CC9916C1D71400424DE5 /* NSAnimationContext+Duration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAnimationContext+Duration.m"; sourceTree = "<group>"; };
+		E2C3CC9E16C3181500424DE5 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
+		E2C3CCA016C324CE00424DE5 /* Toolbar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Toolbar.xib; sourceTree = "<group>"; };
+		E2C6C33216A0D16200D51923 /* AVTTabbedWindows.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AVTTabbedWindows.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2C6C33516A0D16200D51923 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		E2C6C33816A0D16200D51923 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		E2C6C33916A0D16200D51923 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		E2C6C33A16A0D16200D51923 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E2C6C33D16A0D16200D51923 /* AVTTabbedWindows-Info.plist */ = {isa = PBXFileReference; explicitFileType = text.xml; name = "AVTTabbedWindows-Info.plist"; path = "Resources/AVTTabbedWindows-Info.plist"; sourceTree = SOURCE_ROOT; };
+		E2C6C33F16A0D16200D51923 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E2C6C34116A0D16200D51923 /* AVTTabbedWindows-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "AVTTabbedWindows-Prefix.pch"; path = "Source/AVTTabbedWindows-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		E2C6C34B16A0DA3C00D51923 /* AVTContainerWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AVTContainerWindow.h; path = Source/AVTContainerWindow.h; sourceTree = SOURCE_ROOT; };
+		E2C6C34C16A0DA3C00D51923 /* AVTContainerWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AVTContainerWindow.m; path = Source/AVTContainerWindow.m; sourceTree = SOURCE_ROOT; };
+		E2C6C34F16A0DA6800D51923 /* AVTContainerWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AVTContainerWindowController.h; path = Source/AVTContainerWindowController.h; sourceTree = SOURCE_ROOT; };
+		E2C6C35016A0DA6800D51923 /* AVTContainerWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AVTContainerWindowController.m; path = Source/AVTContainerWindowController.m; sourceTree = SOURCE_ROOT; };
+		E2D2C4C916C41F48009E0F37 /* TabDocument.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TabDocument.xib; sourceTree = "<group>"; };
+		E2E474F916AE12CF003338FC /* AVTTabDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AVTTabDocument.h; path = Source/AVTTabDocument.h; sourceTree = SOURCE_ROOT; };
+		E2E474FA16AE12CF003338FC /* AVTTabDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AVTTabDocument.m; path = Source/AVTTabDocument.m; sourceTree = SOURCE_ROOT; };
+		E2E474FB16AE12CF003338FC /* AVTTabWellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AVTTabWellModel.h; path = Source/AVTTabWellModel.h; sourceTree = SOURCE_ROOT; };
+		E2E474FC16AE12CF003338FC /* AVTTabWellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AVTTabWellModel.m; path = Source/AVTTabWellModel.m; sourceTree = SOURCE_ROOT; };
+		E2E4750116AE12D6003338FC /* AVTContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AVTContainer.h; path = Source/AVTContainer.h; sourceTree = SOURCE_ROOT; };
+		E2E4750216AE12D6003338FC /* AVTContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AVTContainer.m; path = Source/AVTContainer.m; sourceTree = SOURCE_ROOT; };
+		E2E4750916AE1704003338FC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		E2E4750C16AE1835003338FC /* newtab-hover.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "newtab-hover.pdf"; path = "Images/newtab-hover.pdf"; sourceTree = "<group>"; };
+		E2E4750D16AE1835003338FC /* newtab-normal.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "newtab-normal.pdf"; path = "Images/newtab-normal.pdf"; sourceTree = "<group>"; };
+		E2E4750E16AE1835003338FC /* newtab-pressed.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "newtab-pressed.pdf"; path = "Images/newtab-pressed.pdf"; sourceTree = "<group>"; };
+		E2E7119516B87FD800A623B0 /* AVTTabWellModelDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVTTabWellModelDelegate.h; sourceTree = "<group>"; };
+		E2E7119816B883F500A623B0 /* AVTTabDocumentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AVTTabDocumentController.h; path = Source/AVTTabDocumentController.h; sourceTree = SOURCE_ROOT; };
+		E2E7119916B883F500A623B0 /* AVTTabDocumentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVTTabDocumentController.m; sourceTree = "<group>"; };
+		E2E7119C16B8843E00A623B0 /* AVTTabWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVTTabWindowController.h; sourceTree = "<group>"; };
+		E2E7119D16B8843E00A623B0 /* AVTTabWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVTTabWindowController.m; sourceTree = "<group>"; };
+		E2E711A016B8848900A623B0 /* AVTTabController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVTTabController.h; sourceTree = "<group>"; };
+		E2E711A116B8848900A623B0 /* AVTTabController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVTTabController.m; sourceTree = "<group>"; };
+		E2E711A416B884F100A623B0 /* AVTTabView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVTTabView.h; sourceTree = "<group>"; };
+		E2E711A516B884F100A623B0 /* AVTTabView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVTTabView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E2093BF316B9C8C100DA7793 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2E7A0E116B9CEA8008C81DB /* AVTTabbedWindows.framework in Frameworks */,
+				E2093BF716B9C8C100DA7793 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2C6C32E16A0D16200D51923 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2C3CC9F16C3181600424DE5 /* Carbon.framework in Frameworks */,
+				E2E4750A16AE1704003338FC /* QuartzCore.framework in Frameworks */,
+				E2C6C33616A0D16200D51923 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E2093BE416B89FFD00DA7793 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				E264CAC016C9A5D400B12542 /* AVTFadeTruncatingTextFieldCell.h */,
+				E264CAC116C9A5D400B12542 /* AVTFadeTruncatingTextFieldCell.m */,
+				E2C3CC4016B9E1B200424DE5 /* AVTFastResizeView.h */,
+				E2C3CC4116B9E1B200424DE5 /* AVTFastResizeView.m */,
+				E2093BED16B9BD7F00DA7793 /* AVTHoverButton.h */,
+				E2093BEE16B9BD7F00DA7793 /* AVTHoverButton.m */,
+				E2093BE916B9BD2100DA7793 /* AVTHoverCloseButton.h */,
+				E2093BEA16B9BD2100DA7793 /* AVTHoverCloseButton.m */,
+				E2093BE516B8A03700DA7793 /* AVTGradientView.h */,
+				E2093BE616B8A03700DA7793 /* AVTGradientView.m */,
+				E2C3CC6C16BC3D9200424DE5 /* AVTNewTabButton.h */,
+				E2C3CC6D16BC3D9300424DE5 /* AVTNewTabButton.m */,
+				E264CABC16C9734200B12542 /* AVTThrobberView.h */,
+				E264CABD16C9734200B12542 /* AVTThrobberView.m */,
+				E264CACA16C9C3CF00B12542 /* AVTWindowSheetController.h */,
+				E264CACB16C9C3CF00B12542 /* AVTWindowSheetController.m */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		E2093BF816B9C8C100DA7793 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2093BF916B9C8C100DA7793 /* AppKit.framework */,
+				E2093BFB16B9C8C100DA7793 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		E2093BFC16B9C8C100DA7793 /* TesterApp */ = {
+			isa = PBXGroup;
+			children = (
+				E2093C1416B9C8D300DA7793 /* Source */,
+				E2093BFD16B9C8C200DA7793 /* Resources */,
+			);
+			path = TesterApp;
+			sourceTree = "<group>";
+		};
+		E2093BFD16B9C8C200DA7793 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E2093BFE16B9C8C200DA7793 /* TabbedWindowTester-Info.plist */,
+				E2093C0B16B9C8C200DA7793 /* TestTabDocument.xib */,
+				E2093C0E16B9C8C200DA7793 /* MainMenu.xib */,
+				E2093BFF16B9C8C200DA7793 /* InfoPlist.strings */,
+				E2093C0516B9C8C200DA7793 /* Credits.rtf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E2093C1416B9C8D300DA7793 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				E2C3CC9116C1840B00424DE5 /* TestTabAppDelegate.h */,
+				E2C3CC9216C1840B00424DE5 /* TestTabAppDelegate.m */,
+				E2093C0816B9C8C200DA7793 /* TestTabDocument.h */,
+				E2093C0916B9C8C200DA7793 /* TestTabDocument.m */,
+				E2C3CC8E16C1832300424DE5 /* TestTabContainer.h */,
+				E2C3CC8F16C1832300424DE5 /* TestTabContainer.m */,
+				E2093C0416B9C8C200DA7793 /* TabbedWindowTester-Prefix.pch */,
+				E2093C0216B9C8C200DA7793 /* main.m */,
+			);
+			name = Source;
+			path = TesterApp/Source;
+			sourceTree = SOURCE_ROOT;
+		};
+		E2C2C86016B729FD00B1BA7E /* TabWell */ = {
+			isa = PBXGroup;
+			children = (
+				E2C2C85616B725F200B1BA7E /* AVTTabWellController.h */,
+				E2C2C85716B725F200B1BA7E /* AVTTabWellController.m */,
+				E2C2C85816B725F200B1BA7E /* AVTTabWellView.h */,
+				E2C2C85916B725F200B1BA7E /* AVTTabWellView.m */,
+				E2C3CC8616C03CFC00424DE5 /* AVTTabWellModelOrderController.h */,
+				E2C3CC8716C03CFD00424DE5 /* AVTTabWellModelOrderController.m */,
+				E2E7119516B87FD800A623B0 /* AVTTabWellModelDelegate.h */,
+				E2E474FB16AE12CF003338FC /* AVTTabWellModel.h */,
+				E2E474FC16AE12CF003338FC /* AVTTabWellModel.m */,
+			);
+			name = TabWell;
+			sourceTree = "<group>";
+		};
+		E2C2C86116B72A0A00B1BA7E /* Container */ = {
+			isa = PBXGroup;
+			children = (
+				E2C2C86216B738C000B1BA7E /* AVTContainerCommands.h */,
+				E2E4750116AE12D6003338FC /* AVTContainer.h */,
+				E2E4750216AE12D6003338FC /* AVTContainer.m */,
+				E2C6C34B16A0DA3C00D51923 /* AVTContainerWindow.h */,
+				E2C6C34C16A0DA3C00D51923 /* AVTContainerWindow.m */,
+				E2C6C34F16A0DA6800D51923 /* AVTContainerWindowController.h */,
+				E2C6C35016A0DA6800D51923 /* AVTContainerWindowController.m */,
+			);
+			name = Container;
+			sourceTree = "<group>";
+		};
+		E2C3CC3716B9D2D800424DE5 /* Configurations */ = {
+			isa = PBXGroup;
+			children = (
+				E2C3CC3816B9D2F500424DE5 /* Global-Mac.xcconfig */,
+				E2C3CC3916B9D2F500424DE5 /* Project-Mac-Debug.xcconfig */,
+				E2C3CC3A16B9D2F500424DE5 /* Project-Mac-Distribution.xcconfig */,
+				E2C3CC3B16B9D2F500424DE5 /* Project-Mac-Release.xcconfig */,
+			);
+			name = Configurations;
+			sourceTree = "<group>";
+		};
+		E2C3CC4416BB1C2D00424DE5 /* Additions */ = {
+			isa = PBXGroup;
+			children = (
+				E2C3CC9816C1D71400424DE5 /* NSAnimationContext+Duration.h */,
+				E2C3CC9916C1D71400424DE5 /* NSAnimationContext+Duration.m */,
+				E2C3CC4516BB1C5300424DE5 /* NSWindow+AVTTheme.h */,
+				E2C3CC4616BB1C5300424DE5 /* NSWindow+AVTTheme.m */,
+			);
+			name = Additions;
+			sourceTree = "<group>";
+		};
+		E2C3CC4916BB1F0E00424DE5 /* Toolbar */ = {
+			isa = PBXGroup;
+			children = (
+				E2C3CC4A16BB1F1B00424DE5 /* AVTToolbarController.h */,
+				E2C3CC4B16BB1F1B00424DE5 /* AVTToolbarController.m */,
+				E2C3CC4C16BB1F1B00424DE5 /* AVTToolbarView.h */,
+				E2C3CC4D16BB1F1B00424DE5 /* AVTToolbarView.m */,
+			);
+			name = Toolbar;
+			sourceTree = "<group>";
+		};
+		E2C6C32616A0D16200D51923 = {
+			isa = PBXGroup;
+			children = (
+				E2C3CC3716B9D2D800424DE5 /* Configurations */,
+				E2093BFC16B9C8C100DA7793 /* TesterApp */,
+				E2C6C33B16A0D16200D51923 /* Tabbed Window Framework */,
+				E2C6C33416A0D16200D51923 /* Frameworks */,
+				E2C6C33316A0D16200D51923 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E2C6C33316A0D16200D51923 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E2C6C33216A0D16200D51923 /* AVTTabbedWindows.framework */,
+				E2093BF616B9C8C100DA7793 /* TabbedWindowTester.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E2C6C33416A0D16200D51923 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2C3CC9E16C3181500424DE5 /* Carbon.framework */,
+				E2C6C33516A0D16200D51923 /* Cocoa.framework */,
+				E2C6C33816A0D16200D51923 /* AppKit.framework */,
+				E2C6C33916A0D16200D51923 /* CoreData.framework */,
+				E2C6C33A16A0D16200D51923 /* Foundation.framework */,
+				E2E4750916AE1704003338FC /* QuartzCore.framework */,
+				E2093BF816B9C8C100DA7793 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E2C6C33B16A0D16200D51923 /* Tabbed Window Framework */ = {
+			isa = PBXGroup;
+			children = (
+				E2C6C33C16A0D16200D51923 /* Source */,
+				E2C6C34A16A0D9A600D51923 /* Resources */,
+			);
+			name = "Tabbed Window Framework";
+			path = AVTTabbedWindows;
+			sourceTree = "<group>";
+		};
+		E2C6C33C16A0D16200D51923 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				E2C3CC4416BB1C2D00424DE5 /* Additions */,
+				E2C2C86116B72A0A00B1BA7E /* Container */,
+				E2E7119716B883AF00A623B0 /* Tab */,
+				E2C2C86016B729FD00B1BA7E /* TabWell */,
+				E2C3CC4916BB1F0E00424DE5 /* Toolbar */,
+				E2093BE416B89FFD00DA7793 /* Utilities */,
+				E2C6C34116A0D16200D51923 /* AVTTabbedWindows-Prefix.pch */,
+			);
+			path = Source;
+			sourceTree = SOURCE_ROOT;
+		};
+		E2C6C34A16A0D9A600D51923 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E2E4750B16AE182C003338FC /* Images */,
+				E2C3CC9416C1908500424DE5 /* ContainerWindow.xib */,
+				E2C3CCA016C324CE00424DE5 /* Toolbar.xib */,
+				E2D2C4C916C41F48009E0F37 /* TabDocument.xib */,
+				E264CABA16C5BC9200B12542 /* TabView.xib */,
+				E2C6C33D16A0D16200D51923 /* AVTTabbedWindows-Info.plist */,
+				E2C6C33E16A0D16200D51923 /* InfoPlist.strings */,
+			);
+			path = Resources;
+			sourceTree = SOURCE_ROOT;
+		};
+		E2E4750B16AE182C003338FC /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				E2C3CC9616C1CC1F00424DE5 /* default-icon.pdf */,
+				E2E4750C16AE1835003338FC /* newtab-hover.pdf */,
+				E2E4750D16AE1835003338FC /* newtab-normal.pdf */,
+				E2E4750E16AE1835003338FC /* newtab-pressed.pdf */,
+				E264CAC416C9A79300B12542 /* throbber_waiting.png */,
+				E264CAC516C9A79300B12542 /* throbber.png */,
+				E264CAC816C9A7AA00B12542 /* sadicon.png */,
+			);
+			name = Images;
+			path = Resources;
+			sourceTree = SOURCE_ROOT;
+		};
+		E2E7119716B883AF00A623B0 /* Tab */ = {
+			isa = PBXGroup;
+			children = (
+				E2E711A416B884F100A623B0 /* AVTTabView.h */,
+				E2E711A516B884F100A623B0 /* AVTTabView.m */,
+				E2E711A016B8848900A623B0 /* AVTTabController.h */,
+				E2E711A116B8848900A623B0 /* AVTTabController.m */,
+				E2E7119C16B8843E00A623B0 /* AVTTabWindowController.h */,
+				E2E7119D16B8843E00A623B0 /* AVTTabWindowController.m */,
+				E2E474F916AE12CF003338FC /* AVTTabDocument.h */,
+				E2E474FA16AE12CF003338FC /* AVTTabDocument.m */,
+				E2E7119816B883F500A623B0 /* AVTTabDocumentController.h */,
+				E2E7119916B883F500A623B0 /* AVTTabDocumentController.m */,
+			);
+			name = Tab;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		E2C6C32F16A0D16200D51923 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2C6C34D16A0DA3C00D51923 /* AVTContainerWindow.h in Headers */,
+				E2C6C35116A0DA6800D51923 /* AVTContainerWindowController.h in Headers */,
+				E2E474FD16AE12CF003338FC /* AVTTabDocument.h in Headers */,
+				E2E474FF16AE12CF003338FC /* AVTTabWellModel.h in Headers */,
+				E2E4750316AE12D6003338FC /* AVTContainer.h in Headers */,
+				E2C2C85A16B725F200B1BA7E /* AVTTabWellController.h in Headers */,
+				E2C2C85C16B725F200B1BA7E /* AVTTabWellView.h in Headers */,
+				E2C2C86316B738C000B1BA7E /* AVTContainerCommands.h in Headers */,
+				E2E7119616B87FD800A623B0 /* AVTTabWellModelDelegate.h in Headers */,
+				E2E7119A16B883F500A623B0 /* AVTTabDocumentController.h in Headers */,
+				E2E7119E16B8843E00A623B0 /* AVTTabWindowController.h in Headers */,
+				E2E711A216B8848900A623B0 /* AVTTabController.h in Headers */,
+				E2E711A616B884F100A623B0 /* AVTTabView.h in Headers */,
+				E2093BE716B8A03700DA7793 /* AVTGradientView.h in Headers */,
+				E2093BEB16B9BD2100DA7793 /* AVTHoverCloseButton.h in Headers */,
+				E2093BEF16B9BD7F00DA7793 /* AVTHoverButton.h in Headers */,
+				E2C3CC4216B9E1B200424DE5 /* AVTFastResizeView.h in Headers */,
+				E2C3CC4716BB1C5300424DE5 /* NSWindow+AVTTheme.h in Headers */,
+				E2C3CC4E16BB1F1B00424DE5 /* AVTToolbarController.h in Headers */,
+				E2C3CC5016BB1F1B00424DE5 /* AVTToolbarView.h in Headers */,
+				E2C3CC6E16BC3D9300424DE5 /* AVTNewTabButton.h in Headers */,
+				E2C3CC8816C03CFD00424DE5 /* AVTTabWellModelOrderController.h in Headers */,
+				E2C3CC9A16C1D71500424DE5 /* NSAnimationContext+Duration.h in Headers */,
+				E264CABE16C9734200B12542 /* AVTThrobberView.h in Headers */,
+				E264CAC216C9A5D400B12542 /* AVTFadeTruncatingTextFieldCell.h in Headers */,
+				E264CACC16C9C3CF00B12542 /* AVTWindowSheetController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		E2093BF516B9C8C100DA7793 /* TesterApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2093C1116B9C8C200DA7793 /* Build configuration list for PBXNativeTarget "TesterApp" */;
+			buildPhases = (
+				E2093BF216B9C8C100DA7793 /* Sources */,
+				E2093BF316B9C8C100DA7793 /* Frameworks */,
+				E2093BF416B9C8C100DA7793 /* Resources */,
+				E2C3CC9C16C3176E00424DE5 /* Copy Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E2E7A0E016B9CEA0008C81DB /* PBXTargetDependency */,
+			);
+			name = TesterApp;
+			productName = TesterApp;
+			productReference = E2093BF616B9C8C100DA7793 /* TabbedWindowTester.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E2C6C33116A0D16200D51923 /* AVTTabbedWindows */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2C6C34716A0D16200D51923 /* Build configuration list for PBXNativeTarget "AVTTabbedWindows" */;
+			buildPhases = (
+				E2C6C32D16A0D16200D51923 /* Sources */,
+				E2C6C32E16A0D16200D51923 /* Frameworks */,
+				E2C6C32F16A0D16200D51923 /* Headers */,
+				E2C6C33016A0D16200D51923 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AVTTabbedWindows;
+			productName = AVTTabbedWindows;
+			productReference = E2C6C33216A0D16200D51923 /* AVTTabbedWindows.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E2C6C32816A0D16200D51923 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Avatron Software, Inc";
+			};
+			buildConfigurationList = E2C6C32B16A0D16200D51923 /* Build configuration list for PBXProject "TabbedWindows" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E2C6C32616A0D16200D51923;
+			productRefGroup = E2C6C33316A0D16200D51923 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E2C6C33116A0D16200D51923 /* AVTTabbedWindows */,
+				E2093BF516B9C8C100DA7793 /* TesterApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E2093BF416B9C8C100DA7793 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2093C0116B9C8C200DA7793 /* InfoPlist.strings in Resources */,
+				E2093C0716B9C8C200DA7793 /* Credits.rtf in Resources */,
+				E2093C0D16B9C8C200DA7793 /* TestTabDocument.xib in Resources */,
+				E2093C1016B9C8C200DA7793 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2C6C33016A0D16200D51923 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2C6C34016A0D16200D51923 /* InfoPlist.strings in Resources */,
+				E2E4750F16AE1835003338FC /* newtab-hover.pdf in Resources */,
+				E2E4751016AE1835003338FC /* newtab-normal.pdf in Resources */,
+				E2E4751116AE1835003338FC /* newtab-pressed.pdf in Resources */,
+				E2C3CC9516C1908600424DE5 /* ContainerWindow.xib in Resources */,
+				E2C3CC9716C1CC1F00424DE5 /* default-icon.pdf in Resources */,
+				E2C3CCA116C324CE00424DE5 /* Toolbar.xib in Resources */,
+				E2D2C4CA16C41F48009E0F37 /* TabDocument.xib in Resources */,
+				E264CABB16C5BC9200B12542 /* TabView.xib in Resources */,
+				E264CAC616C9A79300B12542 /* throbber_waiting.png in Resources */,
+				E264CAC716C9A79300B12542 /* throbber.png in Resources */,
+				E264CAC916C9A7AA00B12542 /* sadicon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E2093BF216B9C8C100DA7793 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2093C0316B9C8C200DA7793 /* main.m in Sources */,
+				E2093C0A16B9C8C200DA7793 /* TestTabDocument.m in Sources */,
+				E2C3CC9016C1832300424DE5 /* TestTabContainer.m in Sources */,
+				E2C3CC9316C1840B00424DE5 /* TestTabAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2C6C32D16A0D16200D51923 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2C6C34E16A0DA3C00D51923 /* AVTContainerWindow.m in Sources */,
+				E2C6C35216A0DA6800D51923 /* AVTContainerWindowController.m in Sources */,
+				E2E474FE16AE12CF003338FC /* AVTTabDocument.m in Sources */,
+				E2E4750016AE12CF003338FC /* AVTTabWellModel.m in Sources */,
+				E2E4750416AE12D6003338FC /* AVTContainer.m in Sources */,
+				E2C2C85B16B725F200B1BA7E /* AVTTabWellController.m in Sources */,
+				E2C2C85D16B725F200B1BA7E /* AVTTabWellView.m in Sources */,
+				E2E7119B16B883F500A623B0 /* AVTTabDocumentController.m in Sources */,
+				E2E7119F16B8843E00A623B0 /* AVTTabWindowController.m in Sources */,
+				E2E711A316B8848900A623B0 /* AVTTabController.m in Sources */,
+				E2E711A716B884F100A623B0 /* AVTTabView.m in Sources */,
+				E2093BE816B8A03700DA7793 /* AVTGradientView.m in Sources */,
+				E2093BEC16B9BD2100DA7793 /* AVTHoverCloseButton.m in Sources */,
+				E2093BF016B9BD7F00DA7793 /* AVTHoverButton.m in Sources */,
+				E2C3CC4316B9E1B200424DE5 /* AVTFastResizeView.m in Sources */,
+				E2C3CC4816BB1C5300424DE5 /* NSWindow+AVTTheme.m in Sources */,
+				E2C3CC4F16BB1F1B00424DE5 /* AVTToolbarController.m in Sources */,
+				E2C3CC5116BB1F1B00424DE5 /* AVTToolbarView.m in Sources */,
+				E2C3CC6F16BC3D9300424DE5 /* AVTNewTabButton.m in Sources */,
+				E2C3CC8916C03CFD00424DE5 /* AVTTabWellModelOrderController.m in Sources */,
+				E2C3CC9B16C1D71500424DE5 /* NSAnimationContext+Duration.m in Sources */,
+				E264CABF16C9734200B12542 /* AVTThrobberView.m in Sources */,
+				E264CAC316C9A5D400B12542 /* AVTFadeTruncatingTextFieldCell.m in Sources */,
+				E264CACD16C9C3CF00B12542 /* AVTWindowSheetController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E2E7A0E016B9CEA0008C81DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E2C6C33116A0D16200D51923 /* AVTTabbedWindows */;
+			targetProxy = E2E7A0DF16B9CEA0008C81DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E2093BFF16B9C8C200DA7793 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2093C0016B9C8C200DA7793 /* en */,
+			);
+			name = InfoPlist.strings;
+			path = TesterApp/Resources;
+			sourceTree = SOURCE_ROOT;
+		};
+		E2093C0516B9C8C200DA7793 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2093C0616B9C8C200DA7793 /* en */,
+			);
+			name = Credits.rtf;
+			path = TesterApp/Resources;
+			sourceTree = SOURCE_ROOT;
+		};
+		E2093C0B16B9C8C200DA7793 /* TestTabDocument.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2093C0C16B9C8C200DA7793 /* en */,
+			);
+			name = TestTabDocument.xib;
+			path = TesterApp/Resources;
+			sourceTree = SOURCE_ROOT;
+		};
+		E2093C0E16B9C8C200DA7793 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2093C0F16B9C8C200DA7793 /* en */,
+			);
+			name = MainMenu.xib;
+			path = TesterApp/Resources;
+			sourceTree = SOURCE_ROOT;
+		};
+		E2C6C33E16A0D16200D51923 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2C6C33F16A0D16200D51923 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E2093C1216B9C8C200DA7793 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TesterApp/Source/TabbedWindowTester-Prefix.pch";
+				INFOPLIST_FILE = "TesterApp/Resources/TabbedWindowTester-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E2093C1316B9C8C200DA7793 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TesterApp/Source/TabbedWindowTester-Prefix.pch";
+				INFOPLIST_FILE = "TesterApp/Resources/TabbedWindowTester-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E2C6C34516A0D16200D51923 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E2C6C34616A0D16200D51923 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E2C6C34816A0D16200D51923 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Source/AVTTabbedWindows-Prefix.pch";
+				INFOPLIST_FILE = "Resources/AVTTabbedWindows-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		E2C6C34916A0D16200D51923 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Source/AVTTabbedWindows-Prefix.pch";
+				INFOPLIST_FILE = "Resources/AVTTabbedWindows-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E2093C1116B9C8C200DA7793 /* Build configuration list for PBXNativeTarget "TesterApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2093C1216B9C8C200DA7793 /* Debug */,
+				E2093C1316B9C8C200DA7793 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2C6C32B16A0D16200D51923 /* Build configuration list for PBXProject "TabbedWindows" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2C6C34516A0D16200D51923 /* Debug */,
+				E2C6C34616A0D16200D51923 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2C6C34716A0D16200D51923 /* Build configuration list for PBXNativeTarget "AVTTabbedWindows" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2C6C34816A0D16200D51923 /* Debug */,
+				E2C6C34916A0D16200D51923 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E2C6C32816A0D16200D51923 /* Project object */;
+}
